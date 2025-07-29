@@ -1,0 +1,41 @@
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile > img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.profile > .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile > .info > .name {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.profile > .info > .birth {
+  font-size: 13px;
+}
+
+.profile > .info > .job {
+  font-size: 13px;
+}
+
+.profile > .info > .email {
+  font-size: 13px;
+}
