@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.room {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* border: 2px solid black; */
+}
+
+.room > img {
+  width: 130px;
+  height: 130px;
+}
+
+.room > .texts {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  position: relative;
+}
+
+.room > .texts > .price {
+  font-weight: bold;
+}
+
+.room > .texts > .btn {
+  border: 1px solid rgb(64, 64, 255);
+  color: rgb(64, 64, 255);
+  padding: 3px;
+  width: 30px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+}

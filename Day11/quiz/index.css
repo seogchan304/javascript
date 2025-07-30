@@ -1,0 +1,35 @@
+section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  height: 150px;
+}
+
+.box {
+  border: 1px solid rgb(201, 201, 201);
+  width: 300px;
+  height: 90px;
+  position: relative;
+  background-color: rgb(243, 243, 243);
+}
+
+.box > .btnbox {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+}
+
+.box > .btnbox > button {
+  background-color: white;
+}
+
+.box > .btnbox > .minus {
+  cursor: pointer;
+}
+
+.box > .btnbox > .plus {
+  cursor: pointer;
+}
